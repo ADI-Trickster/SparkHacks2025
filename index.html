@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Forbidden Chaos Chicago Hackathon 2023</title>
+    <title>UIC Spark Hackathon 2025</title>
     <!-- CSS Linked -->
     <link href="style.css" rel="stylesheet" type="text/css" />
     <!-- jQuery Linked -->
@@ -22,7 +22,7 @@
         </div>
         <div id="login-page">
             <h1>Log In to UIC Account</h1>
-            <form id="login-form">
+            <!-- <form id="login-form">
                 <input type="text" id="username" placeholder="Username" required />
                 <input
                 type="password"
@@ -30,8 +30,23 @@
                 placeholder="Password"
                 required
                 />
-              <button type="submit">Log In</button>
+                <button><a href="/club-delivery.html" class="button-class">Log In</a></button>
+              <button type="submit">Log In</button> -->
+            <!-- </form> -->
+            <form id="login-form" action="/club-delivery.html" method="GET">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required />
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required />
+                </div>
+                <!-- <button type="submit" class="button-class">Log In</button> -->
+                <button><a href="/club-delivery.html" class="button-class">Log In</a></button>
+                <!-- <button type="submit">Log In</button>  -->
             </form>
+            
         </div>
     </body>
 
