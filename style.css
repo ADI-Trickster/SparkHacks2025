@@ -9,6 +9,17 @@ body{
     justify-content: center;
 }
 
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img{
+    size: 10;
+} */
+
 .hidden{
     display: none;
 }
