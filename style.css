@@ -23,3 +23,8 @@ div {
 .hidden{
     display: none;
 }
+
+.class{
+    display: flex;
+    
+}
